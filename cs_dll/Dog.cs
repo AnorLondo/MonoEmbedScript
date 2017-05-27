@@ -21,5 +21,9 @@ namespace cs_dll
             for (var i = 0; i < times; ++i)
                 Console.WriteLine("bark!");
         }
+        ~Dog()  // destructor
+        {
+            Console.WriteLine("die!die!die!");
+        }
     }
 }

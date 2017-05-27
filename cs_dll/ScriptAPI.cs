@@ -13,6 +13,7 @@ namespace TestNamespace
     {
         public static void Print()
         {
+            GC.Collect();
             ScriptAPI.DoSomething();
         }
     }
